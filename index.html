@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+    <section class="shapin">
+        <div class="row">
+        <div id='rect' class="col">
+            <h4>Generate Rectangle:</h4>
+            <label>Width:</label>
+            <input id="i1" type="text">
+            <label>Height :</label>
+            <input id="i2" type="text">
+            <button id='brect'>Insert</button>
+        </div>
+        <div id='squar' class="col">
+            <h4>Generate Square:</h4>
+            <label>Side Length:</label>
+            <input id="i3" type="text">
+            <button id="bsquar">Insert</button>
+        </div>
+        </div>
+        <div class="row">
+        <div id='circ' class="col">
+            <h4>Generate Circle:</h4>
+            <label>Radius:</label>
+            <input id="i4" type="text">
+            <button id="bcirc">Insert</button>
+        </div>
+        <div id='tri' class="col">
+            <h4>Generate Isocles Right Triangle:</h4>
+            <label>Height :</label>
+            <input id="i5" type="text">
+            <button id="btri">Insert</button>
+        </div>
+        </div>
+    </section>
+    <section class="disply row">
+        <div class="col-7">
+            <div class="main"></div>
+        </div>
+        <div class="sidbar col-5">
+            <div class="row"><p class="col-3">Shape Name: </p><p id="shape" class="col-3"></p></div>
+            <div class="row"><p class="col-3">Width: </p><p id="width" class="col-3"></p></div>
+            <div class="row"><p class="col-3">Height: </p><p id="height" class="col-3"></p></div>
+            <div class="row"><p class="col-3">Radius: </p><p id="radius" class="col-3"></p></div>
+            <div class="row"><p class="col-3">Area: </p><p id="area" class="col-3"></p></div>
+            <div class="row"><p class="col-3">Perimeter: </p><p id="perim" class="col-3"></p></div>
+        </div>
+    </section>
+</div>
+</body>
+</html>

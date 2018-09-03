@@ -1,0 +1,39 @@
+.main {
+    margin: 0px;
+    padding: 0;
+    height: 600px;
+    width: 600px;
+    background-color: lightgray
+}
+.sidbar {
+    margin: 0px;
+    padding: 0;
+    width: 400px;
+    height: 600px;
+}
+.disply {
+    padding-top: 2em;
+    border-top: 5px solid black;
+}
+.triangle{
+    display: inline;
+	width: 0;
+	height: 0;
+    border-bottom-color: yellow;
+    border-bottom-style: solid;
+    border-right-color: transparent;
+    border-right-style: solid;
+}
+.circle {
+    display: inline;
+    background-color: purple;
+    border-radius: 50%;
+}
+.rectangle {
+    display: inline;
+    background-color: green;
+}
+.square {
+    display: inline;
+    background-color: red;
+}
